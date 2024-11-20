@@ -1,0 +1,14 @@
+# Ignore temporary files
+*.tmp
+*.swp
+
+# Ignore logs
+logs/
+*.log
+
+# Ignore database files
+*.sqlite3
+
+# Ignore IDE-specific files
+.vscode/
+.idea/

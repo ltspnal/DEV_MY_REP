@@ -1,5 +1,9 @@
 class SuperStr(str):
     def is_repeatance(self, s):
+        """
+        Проверяет, можно ли текущую строку получить путем повторения строки s.
+        Возвращает True, если да, иначе False.
+        """
         if not s:
             return False
         return len(self) % len(s) == 0 and self == s * (len(self) // len(s))
